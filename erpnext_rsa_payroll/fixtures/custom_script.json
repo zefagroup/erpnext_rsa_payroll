@@ -1,1 +1,11 @@
-[]
+[
+ {
+  "docstatus": 0, 
+  "doctype": "Custom Script", 
+  "dt": "Company", 
+  "modified": "2017-07-03 18:08:49.726755", 
+  "name": "Company-Client", 
+  "script": "cur_frm.fields_dict['activity_code'].get_query = function(doc) {\n\treturn {\n\t\tfilters: {\n\t\t\t\"parent\": doc.trade_clasification,\n\t\t}\n\t}\n}", 
+  "script_type": "Client"
+ }
+]
