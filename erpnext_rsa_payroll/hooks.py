@@ -83,7 +83,7 @@ doc_events = {
  		"validate": "erpnext_rsa_payroll.rsa_payroll.paye_calculation.calculate_paye",
 		"on_submit": "erpnext_rsa_payroll.rsa_payroll.payroll_submit.submit_jv"
 	},
-	"Process Payroll": {
+	"Payroll Entry": {
 		"before_save": "erpnext_rsa_payroll.rsa_payroll.paye_calculation.calculate_paye"
 	}
 }
